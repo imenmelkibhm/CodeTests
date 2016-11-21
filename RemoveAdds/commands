@@ -1,0 +1,1 @@
+python ExtractAdds.py -i /opt/exe/textocr/demo/Chunks/France3/France3Nat_20161017_10533906_10583906_SD.ts -a 1 -o /opt/exe/textocr/demo/AddsReferenceFrames_France3/ -f 5 -n LogoF3 -b 193 -e 195 

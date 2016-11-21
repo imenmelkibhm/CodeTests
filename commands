@@ -1,0 +1,8 @@
+Commandes python:
+
+time ffmpeg -i /opt/exe/textocr/demo/Chunks/iTele_20161017_18494715_18544715_SD.ts -vf fps=1 /opt/exe/textocr/demo/testffmpeg/frame-%d.png -threads 0
+
+python DetectAdds.py -i /opt/exe/textocr/demo/Chunks/iTele_20161017_18494715_18544715_SD.ts -af /opt/exe/textocr/demo/AddsReferenceFrames_ITELE/frame2660.jpg -o /opt/exe/textocr/demo/AddsFramesDetection_ITELE/  -n iTele_20161017_18494715_18544715_SD_2 -f 6
+
+
+
